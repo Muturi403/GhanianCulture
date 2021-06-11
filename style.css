@@ -1,0 +1,153 @@
+/* navbar styling */
+.max-width{
+	max-width: 1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+    
+ .navbar{
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	padding: 30px 0;
+	font-family: sans-serif;
+}
+    
+.navbar  .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+    
+.navbar .logo a{
+	font-size: 35px;
+	font-weight: 600px;
+	color: black;
+}
+    
+.navbar .logo a span{
+	color: rgba(223, 10, 223, 0.76);
+}
+    
+.navbar .menu li{
+	 list-style: none;
+	 display: inline-block;
+}
+    
+.navbar .menu li a{
+	color: black;
+	font-size: 18px;
+	margin-left: 25px;
+	font-weight: 500px;
+	transition: color 0.3s ease;
+}
+    
+.navbar .menu li a:hover{
+	color: rgba(223, 10, 223, 0.76);
+}
+
+/*home styling*/
+.home{
+	display: flex;
+	background-image: url('./images/');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	color: #fff;
+	min-height: 500px;
+	font-family: sans-serif;
+}
+    
+.home .max-width{
+	margin: auto 0 auto 40px;
+}
+    
+.home .home-content .text-1{
+	font-size: 27px;
+}
+    
+.home .home-content .text-2{
+	font-size: 75px;
+	font-weight: 600px;
+	margin-left: -3px;
+}
+    
+.home .home-content .text-3{
+	font-size: 40px;
+	margin: 5px 0;
+}
+    
+.home .home-content .text-3 span{
+	color: rgba(223, 10, 223, 0.76);
+	font-weight: 500px;
+}
+    
+/*About Me styling*/
+section{
+	padding: 100px 0;
+}
+.about ,.projects{
+	font-family: sans-serif;
+}
+.about .title{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	font-weight: bolder;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+}
+.about .about-content .left img{
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+	border-radius: 6px;
+}
+    
+.about .about-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+    
+.about .about-content .left{
+	width: 45%;
+}
+    
+.about .about-content .right{
+	width: 55%;
+}
+    
+.about .about-content .right .text{
+	margin-bottom: 10px;
+	font-weight: 600px;
+	font-size: 25px;
+}
+    
+.about .about-content .right .text span{
+	color: rgba(223, 10, 223, 0.76);
+}
+    
+.about .about-content .right p{
+	text-align: justify;
+}
+
+/*footer styling*/
+footer{
+	font-family: sans-serif;
+	padding: 20px 23px;
+	background: black;
+	color: white;
+}
+    
+footer span a{
+	color: rgba(223, 10, 223, 0.76)
+}
+    
+footer span{
+	margin-left: 600px;
+}
