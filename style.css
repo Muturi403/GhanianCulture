@@ -41,7 +41,7 @@
 }
     
 .navbar .menu li a{
-	color: rgb(7, 7, 252);
+	color: rgb(7, 252, 48);
 	font-size: 18px;
 	margin-left: 25px;
 	font-weight: 500px;
@@ -204,10 +204,16 @@ section{
 
 /*form styling*/
 form{
-	color: rgb(224, 224, 219);
+	color: black;
 	font-family: sans-serif;
-	background-color: black;
 }
+
+.container {
+	border-radius: 10px;
+	background-color: #f7f303;
+	padding: 40px;
+	margin-left:  1000px;
+      }
 
 /*footer styling*/
 footer{
