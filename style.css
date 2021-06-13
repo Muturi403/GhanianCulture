@@ -1,4 +1,9 @@
 /* navbar styling */
+
+*{
+	text-decoration: none;
+	font-style: none;
+}
 .max-width{
 	max-width: 1300px;
 	padding: 0 80px;
@@ -8,9 +13,11 @@
  .navbar{
 	position: fixed;
 	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
 	z-index: 999;
 	padding: 30px 0;
 	font-family: sans-serif;
+
 }
     
 .navbar  .max-width{
