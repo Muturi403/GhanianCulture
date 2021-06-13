@@ -208,6 +208,11 @@ form{
 	font-family: sans-serif;
 }
 
+.right{
+	font-family: sans-serif;
+	padding: 10px;
+}
+
 .container {
 	border-radius: 10px;
 	background-color: #f7f303;
