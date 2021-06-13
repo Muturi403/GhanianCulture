@@ -203,6 +203,12 @@ section{
 	color: white;
 }
 
+/*form styling*/
+form{
+	color: rgb(224, 224, 219);
+	font-family: sans-serif;
+	background-color: black;
+}
 
 /*footer styling*/
 footer{
