@@ -1,6 +1,6 @@
 // Business logic
 var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sartuday"];
-var malesNames = ["Kwasi", "Kwandwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+var maleNames = ["Kwasi", "Kwandwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 
@@ -8,9 +8,9 @@ var femaleNames = ["Akosua", "Adoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 function findNames(e){
 	e.preventDefault();
 	// alert("e");
-	var day = parseInt(document.getElementsById("day").value);
-	var month = parseInt(document.getElementsById("month").value);
-	var year = parseInt(document.getElementsById("year").value);
+	var day = parseInt(document.getElementById("day").value);
+	var month = parseInt(document.getElementById("month").value);
+	var year = parseInt(document.getElementById("year").value);
 	var male = document.getElementById("male");
 	var female = document.getElementById("female");
 
@@ -30,12 +30,12 @@ function findNames(e){
 	var d = newDate.getDay()
 
 	if (male.checked == true){
-		alert("You were born on" + daysOfTheWeek[d] + "and your Akan name is:" + maleNames[d]);
-		document.getElementById('akan').innerHTML = "You were born on " + daysOfTheWeek[d] + "and your Akan name is: " + maleNames[d] ;
+		alert("You were born on " + daysOfTheWeek[d] + " and your Akan name is:" + maleNames[d]);
+		document.getElementById('akan').innerHTML = "You were born on " + daysOfTheWeek[d] + " and your Akan name is: " + maleNames[d] ;
 	}
-	else if (male.checked == true){
-		alert("You were born on" + daysOfTheWeek[d] + "and your Akan name is:" + femaleNames[d]);
-		document.getElementById('akan').innerHTML = "You were born on " + daysOfTheWeek[d] + "and your Akan name is: " + femaleNames[d] ;
+	else if (female.checked == true){
+		alert("You were born on " + daysOfTheWeek[d] + " and your Akan name is:" + femaleNames[d]);
+		document.getElementById('akan').innerHtml = "You were born on " + daysOfTheWeek[d] + " and your Akan name is: " + femaleNames[d] ;
 
 		//do something
 	}
