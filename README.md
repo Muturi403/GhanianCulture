@@ -12,6 +12,11 @@ Project is created with:
 * $ sudo apt-get install node.js
 * $ sudo apt-get install npm
 
+## BDD
+Given the User has not entered any data on the form<br>
+When they click the submit button<br>
+Then proper validation messages should be shown.
+
 ## Known Bugs
 There are no bugs.
 
